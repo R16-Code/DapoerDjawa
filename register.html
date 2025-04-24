@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register | Dapoer Djawa</title>
+  <link rel="stylesheet" href="css/register.css" />
+  <link rel="icon" href="img/dapoerdjawa.png">
+</head>
+<body>
+  <div class="top-section">
+  <div class="overlay">
+
+<div class="bottom-section">
+    <h2 class="register-header">Register</h2>
+    <p class="info-text">*Silahkan lengkapi form berikut ini</p>
+
+    <form action="conregis.php" method="POST" class="register-form">
+      <label for="name">Nama Lengkap</label>
+      <div class="input-wrap">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M560-440h200v-80H560v80Zm0-120h200v-80H560v80ZM200-320h320v-22q0-45-44-71.5T360-440q-72 0-116 26.5T200-342v22Zm160-160q33 0 56.5-23.5T440-560q0-33-23.5-56.5T360-640q-33 0-56.5 23.5T280-560q0 33 23.5 56.5T360-480ZM160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80h640v-480H160v480Zm0 0v-480 480Z"/></svg>
+        <input type="nama" id="nama" name="nama" required placeholder="Masukkan Nama Lengkap"/>
+      </div>
+
+      <label for="email">Email</label>
+      <div class="input-wrap">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+        <input type="email" id="email" name="email" required placeholder="Masukkan Email"/>
+      </div>
+
+      <label for="telp">No Telp</label>
+      <div class="input-wrap">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>
+        <input type="telp" name="telp" id="telp" required placeholder="Masukan Nomor Telepon">
+      </div>
+
+      <label for="alamat">Alamat</label>
+      <div class="input-wrap">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
+        <input type="alamat" name="alamat" id="alamat" required placeholder="Masukan Alamat">
+      </div>
+
+      <label for="password">Password</label>
+        <div class="input-wrap">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M120-160v-112q0-34 17.5-62.5T184-378q62-31 126-46.5T440-440q20 0 40 1.5t40 4.5q-4 58 21 109.5t73 84.5v80H120ZM760-40l-60-60v-186q-44-13-72-49.5T600-420q0-58 41-99t99-41q58 0 99 41t41 99q0 45-25.5 80T790-290l50 50-60 60 60 60-80 80ZM440-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm300 80q17 0 28.5-11.5T780-440q0-17-11.5-28.5T740-480q-17 0-28.5 11.5T700-440q0 17 11.5 28.5T740-400Z"/></svg>
+          <input type="password" id="myInput" name="password" required placeholder="Masukkan Password"/>
+        </div>
+
+        <button class="register-btn" type="submit" name="register">REGISTER</button>
+    </form>
+
+    <p class="register">Have a account? <a href="login.php">Login.</a></p>
+  </div>
+  </div>
+  </div>
+</body>
+</html>

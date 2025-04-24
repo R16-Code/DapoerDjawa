@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dapoer Djawa</title>
+  <link rel="stylesheet" href="css/log.css"/>
+    <link rel="icon" href="img/dapoerdjawa.png">
+</head>
+<body>
+  <div class="top-section">
+    <div class="overlay">
+      <p class="welcome">Selamat Datang di</p>
+      <h1 class="brand"><span>Dapoer</span><span class="djawa">Djawa</span></h1>
+      <p class="desc">
+        Sejak 2014, kami menyajikan cita rasa autentik masakan Jawa dengan resep
+        tradisional dan layanan modern. Nikmati kemudahan pemesanan online dan delivery
+        untuk pengalaman kuliner yang praktis dan lezat!
+      </p>
+      <button class="menu-btn">Our Menu</button>
+
+      <!-- Kotak Login di bawah tombol -->
+      <div class="bottom-section">
+        <h2 class="login-header">Login Admin</h2>
+
+        <form action="" method="POST" class="login-form">
+          <label for="email">Email</label>
+          <div class="input-wrap">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+            <input type="email" id="email" name="email" required placeholder="Email"/>
+          </div>
+
+          <label for="password">Password</label>
+          <div class="input-wrap">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M120-160v-112q0-34 17.5-62.5T184-378q62-31 126-46.5T440-440q20 0 40 1.5t40 4.5q-4 58 21 109.5t73 84.5v80H120ZM760-40l-60-60v-186q-44-13-72-49.5T600-420q0-58 41-99t99-41q58 0 99 41t41 99q0 45-25.5 80T790-290l50 50-60 60 60 60-80 80ZM440-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm300 80q17 0 28.5-11.5T780-440q0-17-11.5-28.5T740-480q-17 0-28.5 11.5T700-440q0 17 11.5 28.5T740-400Z"/></svg>
+            <input type="password" id="myInput" name="password" required placeholder="Password"/>
+          </div>
+          <input type="checkbox" onclick="myFunction()"> Show Password
+
+          <button class="login-btn" type="submit">LOGIN</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+</body>
+</html>
