@@ -17,7 +17,7 @@ body {
 }
 
 .top-section {
-  background: url(../img/backgroundlogin.jpg) no-repeat;
+  background: url(backgroundlogin.png) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
